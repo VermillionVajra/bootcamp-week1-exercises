@@ -1,14 +1,53 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Homepage!</title>
-</head>
-
-<body>
-    Build your website here!
-</body>
-
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="index.css" rel="stylesheet">
+        <title>My Webpage</title>
+        <!-- JS code for link click-->
+        <script>
+            function showAlert() {
+              alert ("This page is still under construction until CS50 Final Project is completed (COMPLETE)!");
+            }
+        </script>
+    </head>
+    <body>
+    <div class = "navbar">
+        <h3 style="background-color:SlateBlue;">
+            DEV Bootcamp '22
+        </h3>  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Directory</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="./index">Homepage <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./about">About</a>
+                    <a class="nav-link" href="./research">Research Interests</a>
+                    <a class="nav-link" onclick="showAlert()" href="./final">Final Project</a>
+                </div>
+            </div>
+          </nav>
+    </div>
+    <div class = "banner">
+        <div class = "row">
+            <div class = "item">
+                <a href = "https://www.linkedin.com/in/vikhyat-kethamukkala-5870bb1b0/">
+                <img src = "headshot.jpg" alt = "Click to see my Linkedin!">
+                </a>
+            </div>
+                <div class = "white-box">
+                    <div class = "content">
+                        <h2> Hey!<br> My name is <span style = "color:purple">Vikhyat</span>!</h2>
+                        <p>I love <b>research</b>, <b>linguistics</b>, and exploring different <b>cultures</b>!</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </body>
 </html>
